@@ -1,0 +1,188 @@
+{% load static %}
+
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="{% static 'core/main.css' %}">
+
+
+
+    <title>Ristretto Barista Coffee School </title>
+  </head>
+  <body>
+
+
+         <div class="header">
+          <!-- navigation -->
+          
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <a href="/" class="navbar-brand"><img src="{% static 'core/images/logo.png' %}"  class="d-inline-block align-top" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="navbar2">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="{% url 'index' %}">Home <span class="sr-only">Home</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><b>Services</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        
+                    </ul>
+                  <!-- //navigation -->
+                </div>
+              </nav>
+            </div>
+        <!-- //header -->
+
+        {% block content %}
+
+        {% endblock %}
+
+        <!-- Footer -->
+    <footer  class="page-footer font-small   lighten-5"
+      style="background-color:rgb(68, 68, 105); margin-top: 2%; color: white" >
+      <div style="">
+        <div class="container"></div>
+      </div>
+
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3 dark-grey-text" >
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-4 col-xl-3 mb-4" style="margin-top: 25px;">
+            <!-- Content -->
+            <h6 class="text-uppercase font-weight-bold">
+              <strong>Social-Media</strong>
+            </h6>
+            <hr
+              class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto"
+              style="width: 60px;  border-color: grey"
+            />
+
+
+            <div class="sol">
+              <a href="#" class="fa fa-facebook fa-2x"></a>
+              <a href="#" class="fa fa-twitter fa-2x "></a>
+              <a href="#" class="fa fa-google fa-2x"></a>
+
+              <a href="#" class="fa fa-youtube fa-2x "></a>
+              <a href="#" class="fa fa-instagram  fa-2x"></a>
+            </div>
+
+            <p
+              style="margin-top: 5px; color:white; font-size: 15px; font-family: Arial, Helvetica, sans-serif "
+            >
+              Here you can use rows and columns to organize your footer content.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <div style="height= 60px; width=5px; color:blue;"></div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div
+            class="col-md-4 col-lg-2 col-xl-2 mx-auto mb-4 "
+             style="margin-top: 25px;"
+          >
+            <!-- Links -->
+            <h6 class="text-uppercase font-weight-bold">More informations</h6>
+            <hr
+              class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto"
+              style="width: 60px; border-color: grey"
+            />
+            <p>
+              <a class="link_text" href="#!"> View gallery</a>
+            </p>
+            <p>
+              <a class="link_text" href="#!">View menu</a>
+            </p>
+            <p>
+              <a class="link_text" href="#!">More infromations</a>
+            </p>
+            <p>
+              <a class="link_text" href="#!">Trainer details</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" style="margin-top: 25px;">
+            <!-- Links -->
+            <h6 class="text-uppercase font-weight-bold">Contact</h6>
+            <hr
+              class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto"
+              style="width: 60px;  border-color: grey;"
+            />
+
+            <p class="r">
+              <i class="far fa-envelope"></i>:<span></span
+              ><em>ristretto@gmail.com</em>
+            </p>
+            <p class="r">
+              <i class="fas fa-mobile-alt "></i>:<span></span> 9805753411
+            </p>
+            <p class="r">
+              <i class="fas fa-tty"></i>:<span></span> +01 234 567 89
+            </p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+      <!-- Footer Links -->
+
+      <!-- Copyright -->
+      <hr style="border-color: grey;">
+      <div
+        class="footer-copyright  text-center  py-3"
+        style="color: white; "
+      >
+        <strong class="cpy"> 2018 Copyright © </strong>
+        <a href="" style="color:white;"
+          >Ristretto Barista Coffee School</a
+        >
+      </div>
+      <hr />
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+
+
+        <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+  </body>
+</html>
