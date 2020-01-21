@@ -10,7 +10,7 @@
   padding: 5px 15px;
   height: 80px;
   
-  margin-top: 19px;
+  margin-top: 0px;
 }
 
 .navbar-toggle {
@@ -25,13 +25,20 @@
     padding-top: 26.5px;
     padding-bottom: 26.5px;
     line-height: 27px;
-    margin-bottom: 25px;
+
+  }
+  .reqimg1{
+    margin-left: 10%;
+
   }
 }
 
 #navbar2{
-  padding-left: 35px;
+  
+  padding-left: 25px;
+
 }
+
 #navbar2 ul li {
   padding-left: 35px;
   font-size:1.7vw;
@@ -42,9 +49,12 @@
 
 }
 
+.nav-link{
+  color:#32325d;
+}
 
 .ser_h{
-  color: #666666;
+  color:#32325d;
   text-align: center;
   font-weight: bolder;
   margin: 3% 0 0 0;
@@ -242,6 +252,80 @@ transition: opacity .25s ease-in-out;
 .item.next .carousel-caption {
     opacity: 0;
 }
+body{
+  font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+  }
+
+.contact_header{
+  font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+  justify-content: center;
+  color:#32325d;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.headline-text{
+
+  font-size: 40px;
+  line-height: 50px;
+  color:#32325d;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.contact{
+  background-color: #f6f6f6
+}
+
+.contact_info{
+  font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+  color:#32325d;
+
+}
+
+.contact-form{
+  box-shadow: 0 0 4px 0 rgba(0,0,0,0.5);
+  margin: 50px auto;
+  width: 380px;
+  text-align: center;
+
+
+}
+.contact-form h2{
+  background: #efefef;
+  margin: 0;
+  padding: 10px;
+
+
+}
+.contact-form input{
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+}
+.contact-form textarea{
+  width: 90%;
+  margin: 5px auto;
+  padding: 10px;
+  height: 80px;
+
+}
+.contact-form button{
+  font-size: none;
+  margin-bottom: 5px 5px 10px;
+  margin-top: 10px;
+  border-spacing: 10px;
+
+  
+}
+
+.hr_vertical{
+     transform: rotate(90deg);
+     width: 270px;
+     border-color: black;
+     position: absolute;
+     top: 27vh;
+     left: 70%;
+  }
+
 
 @media (max-width: 900px) {
   .carousel-caption{
@@ -258,12 +342,26 @@ transition: opacity .25s ease-in-out;
     top:40%;
     font-size:3vw;
   }
+  .hr_vertical{
+    width: 0px;
+  }
+  .headline-text{
+    text-align: center;
+  }
+  .info_content{
+    text-align: center;
+  }
+  .reqimg1{
+    margin-left: 10%;
+
+  }
+
  
 }
 @media (max-width: 590) {
   .carousel-caption{
     left: 0%;
-    top:20%;
+    top:0%;
     font-size:3vw;
     max-width: 350px;
   }
@@ -278,11 +376,13 @@ transition: opacity .25s ease-in-out;
   }
   .carousel-caption{
     left: 0%;
-    top:22%;
+    top:20%;
     font-size:3vw;
     max-width: 350px;
+    color: white;
   }
-  
+
+
  
 }
 
@@ -297,7 +397,7 @@ transition: opacity .25s ease-in-out;
   }
   .carousel-caption{
     left: 0%;
-    top:40%;
+    top:20%;
     font-size:3vw;
   }
 

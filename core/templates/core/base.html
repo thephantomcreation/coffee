@@ -25,7 +25,7 @@
          <div class="header">
           <!-- navigation -->
           
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg ml-auto navbar-light">
               <a href="/" class="navbar-brand"><img src="{% static 'core/images/logo.png' %}"  class="d-inline-block align-top" alt=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar2">
                     <span class="navbar-toggler-icon"></span>
@@ -36,19 +36,21 @@
                             <a class="nav-link" href="{% url 'index' %}">Home <span class="sr-only">Home</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><b>Services</b></a>
+                            <a class="nav-link" href="{% url 'course' %}">Course</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="{% url 'about_us' %}">About Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Menu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="{% url 'contact-us' %}">Contact Us</a>
                         </li>
                         
                     </ul>
+                    
+
                   <!-- //navigation -->
                 </div>
               </nav>
