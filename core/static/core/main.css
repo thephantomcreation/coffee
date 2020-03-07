@@ -1,15 +1,13 @@
 
-
-.navbar{
-
+.navbar {
   min-height: 80px;
-
 }
 
 .navbar-brand {
   padding: 5px 15px;
   height: 80px;
-  
+
+
   margin-top: 0px;
 }
 
@@ -25,86 +23,79 @@
     padding-top: 26.5px;
     padding-bottom: 26.5px;
     line-height: 27px;
-
   }
-  .reqimg1{
+  .reqimg1 {
     margin-left: 10%;
-
   }
 }
 
-#navbar2{
-  
+#navbar2 {
   padding-left: 25px;
-
 }
 
 #navbar2 ul li {
   padding-left: 35px;
-  font-size:1.7vw;
+  font-size: 1.7vw;
 }
-.navbar-brand img{
-  height:10vh;
+.navbar-brand img {
+  height: 10vh;
   width: 50vh;
-
 }
 
-.nav-link{
-  color:#32325d;
+.nav-link {
+  color: #32325d;
 }
 
-.ser_h{
-  color:#32325d;
+.ser_h {
+  color: #32325d;
   text-align: center;
   font-weight: bolder;
   margin: 3% 0 0 0;
 }
 
-.ser_img{
+.ser_img {
   margin: 7% 0 0 30%;
 }
-.ser_in{
+.ser_in {
   text-align: center;
   margin-top: 15px;
   margin-bottom: 20px;
-  color:#666666;
+  color: #666666;
   font-size: 24px;
   line-height: 30px;
   letter-spacing: 0px;
 }
-.ser_info{
+.ser_info {
   text-align: center;
   margin: 3% 5% 0 5%;
-  color:#666666;
-  font-family: 'Arial', sans-serif;
+  color: #666666;
+  font-family: "Arial", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
 }
 
-.info{
+.info {
   margin-top: 35px;
   background-color: #f6f6f6;
 }
 
-#reqimg{
+#reqimg {
   vertical-align: middle;
   display: inline-block;
   opacity: 1;
-  box-shadow: 0px 0px 10px 3px
-  rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5);
   margin: 10% 0 0 15%;
   height: 65%;
   max-width: 100%;
   border: none;
   border-radius: 0;
 }
-#reqimg1{
+#reqimg1 {
   vertical-align: middle;
   display: inline-block;
   opacity: 1;
-  box-shadow: 0px 0px 10px 3px
-  rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5);
   margin: 15% 10% 0 10%%;
   height: 80%;
   max-width: 100%;
@@ -112,72 +103,74 @@
   border-radius: 0;
 }
 
-.info_h{
-  color:#666666;
-  font-family: 'Arial', sans-serif;
+.info_h {
+  color: #666666;
+  font-family: "Arial", sans-serif;
   margin: 20% 0 0 0;
   font-weight: bolder;
+  font-style: italic;
 }
 
-.info_content{
-  margin-right: 10%;  
+.info_content {
+  margin-right: 10%;
 }
-.info_hl{
-  color:#666666;
-  font-family: 'Arial', sans-serif;
+.info_hl {
+  color: #666666;
+  font-family: "Arial", sans-serif;
   margin: 20% 0 0 0;
   font-weight: bolder;
   margin-left: 10%;
-
+  font-style: italic;
 }
-.info_hm{
-  color:#666666;
-  font-family: 'Arial', sans-serif;
+.info_hm {
+  color: #666666;
+  font-family: "Arial", sans-serif;
   margin: 5% 0 1% 45%;
   font-weight: bolder;
-
+  font-style: italic;
 }
-.info_contentl{
-  margin-left: 10%;  
+.info_contentl {
+  margin-left: 10%;
+  font-style: italic;
 }
 
-.btn-primary{
+.btn-primary {
   text-transform: uppercase;
-    letter-spacing: 1.3px;
-    fill: #ffffff;
-    color: #ffffff;
-    cursor:pointer;
-    justify-content: center;
-    max-height: 80px;
+  letter-spacing: 1.3px;
+  fill: #ffffff;
+  color: #ffffff;
+  cursor: pointer;
+  justify-content: center;
+  max-height: 80px;
 }
 
-.trainer_img{
-  height:380px;
+.trainer_img {
+  height: 380px;
   width: 60%;
   justify-content: center;
   margin-left: 12%;
   margin-top: 1%;
   margin-bottom: 1%;
   vertical-align: middle;
-    display: inline-block;
-    opacity: 1;
-    box-shadow: 0px 0px 10px 3px
-    rgba(0,0,0,0.5);
-    margin: 10% 10% 0 10%%;
-    height: 80%;
-    max-width: 100%;
-    border: none;
-    border-radius: 0;
+  display: inline-block;
+  opacity: 1;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5);
+  margin: 10% 10% 0 10%%;
+  height: 80%;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
 }
-#info_m{
+#info_m {
   margin-top: 15px;
   background-color: ;
   text-align: center;
 }
 
-.trainer_info{
-  color:#666666;
-  font-family: 'Arial', sans-serif;
+.trainer_info {
+  color: #666666;
+  font-family: "Arial", sans-serif;
+  font-style: italic;
 }
 
 .fa {
@@ -188,7 +181,7 @@
   text-decoration: none;
   margin: 4px 2px;
 }
-.link_text{
+.link_text {
   text-decoration: none;
   color: white;
 }
@@ -232,179 +225,163 @@
 }
 
 .carousel-caption {
-width:600px;
-z-index:10;
-color:#fff;
-text-align:center;
-top:40%;
-left:43%;
-right: 1%;
-font-size:4vh;
-bottom:auto;
--webkit-transform:translate(0, -50%);
--ms-transform:translate(0, -50%);
-transform:translate(0, -50%);
+  width: 600px;
+  z-index: 10;
+  color: #fff;
+  text-align: center;
+  top: 40%;
+  left: 43%;
+  right: 1%;
+  font-size: 4vh;
+  bottom: auto;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
 
-transition: opacity .25s ease-in-out;
--moz-transition: opacity .25s ease-in-out;
--webkit-transition: opacity .25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
 }
 .item.next .carousel-caption {
-    opacity: 0;
+  opacity: 0;
 }
-body{
-  font-family: Camphor,Open Sans,Segoe UI,sans-serif;
-  }
 
-.contact_header{
-  font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+.contact_header {
+  font-family: Camphor, Open Sans, Segoe UI, sans-serif;
   justify-content: center;
-  color:#32325d;
+  color: #32325d;
   margin-left: 25%;
   margin-right: 25%;
+  font-style: italic;
 }
-.headline-text{
-
+.headline-text {
   font-size: 40px;
   line-height: 50px;
-  color:#32325d;
+  color: #32325d;
   font-weight: 400;
   margin-bottom: 20px;
 }
-.contact{
-  background-color: #f6f6f6
+.contact {
+  background-color: #f6f6f6;
 }
 
-.contact_info{
-  font-family: Camphor,Open Sans,Segoe UI,sans-serif;
-  color:#32325d;
-
+.contact_info {
+  font-style: italic;
+  font-family: Camphor, Open Sans, Segoe UI, sans-serif;
+  color: #32325d;
 }
 
-.contact-form{
-  box-shadow: 0 0 4px 0 rgba(0,0,0,0.5);
+.contact-form {
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
   margin: 50px auto;
   width: 380px;
   text-align: center;
-
-
 }
-.contact-form h2{
+.contact-form h2 {
   background: #efefef;
   margin: 0;
   padding: 10px;
-
-
 }
-.contact-form input{
+.contact-form input {
   display: block;
   width: 90%;
   margin: 10px auto;
 }
-.contact-form textarea{
+.contact-form textarea {
   width: 90%;
   margin: 5px auto;
   padding: 10px;
   height: 80px;
-
 }
-.contact-form button{
+.contact-form button {
   font-size: none;
   margin-bottom: 5px 5px 10px;
   margin-top: 10px;
   border-spacing: 10px;
-
-  
 }
 
-.hr_vertical{
-     transform: rotate(90deg);
-     width: 270px;
-     border-color: black;
-     position: absolute;
-     top: 27vh;
-     left: 70%;
-  }
+.hr_vertical {
+  transform: rotate(90deg);
+  width: 270px;
+  border-color: black;
+  position: absolute;
+  top: 27vh;
+  left: 70%;
+}
+
+html,
+body{
+  font-style: italic;
+  font-family: "Cedarville Cursive", cursive;s
+}
 
 
 @media (max-width: 900px) {
-  .carousel-caption{
+  .carousel-caption {
     left: 25%;
-    top:40%;
-    font-size:3vw;
+    top: 40%;
+    font-size: 3vw;
   }
- 
 }
 
 @media (max-width: 768px) {
-  .carousel-caption{
+  .carousel-caption {
     left: 15%;
-    top:40%;
-    font-size:3vw;
+    top: 40%;
+    font-size: 3vw;
   }
-  .hr_vertical{
+  .hr_vertical {
     width: 0px;
   }
-  .headline-text{
+  .headline-text {
     text-align: center;
   }
-  .info_content{
+  .info_content {
     text-align: center;
   }
-  .reqimg1{
+  .reqimg1 {
     margin-left: 10%;
-
   }
-
- 
 }
 @media (max-width: 590) {
-  .carousel-caption{
+  .carousel-caption {
     left: 0%;
-    top:0%;
-    font-size:3vw;
+    top: 0%;
+    font-size: 3vw;
     max-width: 350px;
   }
-
- 
 }
 
-
-@media screen and (max-width: 590px){
-  #navbar2 ul li{
-    font-size:3vw;
+@media screen and (max-width: 590px) {
+  #navbar2 ul li {
+    font-size: 3vw;
   }
-  .carousel-caption{
+  .carousel-caption {
     left: 0%;
-    top:20%;
-    font-size:3vw;
+    top: 20%;
+    font-size: 3vw;
     max-width: 350px;
     color: white;
   }
-
-
- 
 }
 
-  .navbar-brand img{
-  height:10vh;
+.navbar-brand img {
+  height: 10vh;
   width: 30vh;
-
+}
+@media screen and (max-width: 380px) {
+  #navbar2 ul li {
+    font-size: 3vw;
   }
-@media screen and (max-width: 380px){
-  #navbar2 ul li{
-    font-size:3vw;
-  }
-  .carousel-caption{
+  .carousel-caption {
     left: 0%;
-    top:20%;
-    font-size:3vw;
+    top: 20%;
+    font-size: 3vw;
   }
 
-  .navbar-brand img{
-  height:10vh;
-  width: 20vh;
-
+  .navbar-brand img {
+    height: 10vh;
+    width: 20vh;
   }
 }
 

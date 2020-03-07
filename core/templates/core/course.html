@@ -1,105 +1,121 @@
-{% extends 'core/base.html' %}
-{% load static %}
-
-
-
-{% block content %} 
+{% extends 'core/base.html' %} {% load static %} {% block content %}
 
 <style>
-      .img {
-        height: 2ovh;
-        width: 100%;
-      }
+  #add {
+    padding-top: 100px;
+  }
+  .img {
+    height: 2ovh;
+    width: 100%;
+  }
 
-      /*-----------------button for views cousese------------------*/
-      .btn {
-        padding: 8px 14px;
-        font-size: 10px;
-        text-align: center;
-        cursor: pointer;
-        outline: none;
-        color: #fff;
-        background-color: #4caf50;
-        border: none;
-        border-radius: 8px;
-        box-shadow: 0 5px #999;
-        width: 150px;
-        text-transform: uppercase;
-      }
+  /*-----------------button for views cousese------------------*/
+  .btn {
+    padding: 8px 14px;
+    font-size: 10px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 5px #999;
+    width: 150px;
+    text-transform: uppercase;
+  }
 
-      .btn:hover {
-        background-color: #3e8e41;
-      }
+  .btn:hover {
+    background-color: #3e8e41;
+  }
 
-      .btn:active {
-        background-color: #3e8e41;
-        box-shadow: 0 5px #666;
-        transform: translateY(4px);
-      }
+  .btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 
-      .card-text{
-        font-size: 14px;
-      }
-      /*-----------------------------//views course---------------------------*/
-    </style>
- <!------------------------card for course--------------------------->
-    <div class="container">
-      <div class="container text-center headerset" style="margin-bottom: 25px;">
-        <div class="contact_header">
-        <h1 class="headline-text">Our Courses</h1>
-        Here are the list of courses we offer. Please contact us for further informations.
-        </div>
-      </div>
-  
-      <div class="card-deck">
-        <div class="card">
-          <img src="{% static 'core/images/making.jpg' %}" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">FIRST COURSE</h5>
-            <p class="card-text ">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Laboriosam dolores nobis placeat hic deserunt dicta nihil? Iure
-              dignissimos dolorem rem sint dolorum ipsum.
-            </p>
-            <p class="card-text">
-              <small class="text-muted"><em></em></small>
-            </p>
-            <a href="{% url 'contact-us' %}"><button class="btn ">Contact Us</button></a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="{% static 'core/images/baristatrain.jpg' %}" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">SECOND COURSE</h5>
-            <p class="card-text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Laboriosam dolores nobis placeat hic deserunt dicta nihil? Iure
-              dignissimos dolorem rem sint dolorum ipsum.
-            </p>
-            <p class="card-text">
-              <small class="text-muted"><em></em></small>
-            </p>
-            <a href="{% url 'contact-us' %}"><button class="btn ">Contact Us</button></a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="{% static 'core/images/making.jpg' %}" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">THIRD COURSE</h5>
-            <p class="card-text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Laboriosam dolores nobis placeat hic deserunt dicta nihil? Iure
-              dignissimos dolorem rem sint dolorum ipsum,
-            </p>
-            <p class="card-text">
-              <small class="text-muted"><em></em></small>
-            </p>
-            <a href="{% url 'contact-us' %}"><button class="btn ">Contact Us</button></a>
-          </div>
-        </div>
+  .card-text {
+    font-size: 14px;
+  }
+  /*-----------------------------//views course---------------------------*/
+</style>
+<!------------------------card for course--------------------------->
+<div class="container bg-light" id="add">
+  <div class="container text-center headerset" style="margin-bottom: 25px;">
+    <div class="contact_header">
+      <h1 class="headline-text">Our Courses</h1>
+      Here are the list of courses we offer. Please contact us for further
+      informations.
+    </div>
+  </div>
+
+  <div class="card-deck">
+    <div class="card">
+      <img
+        src="{% static 'core/images/making.jpg' %}"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">FIRST COURSE</h5>
+        <p class="card-text ">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+          dolores nobis placeat hic deserunt dicta nihil? Iure dignissimos
+          dolorem rem sint dolorum ipsum.
+        </p>
+        <p class="card-text">
+          <small class="text-muted"><em></em></small>
+        </p>
+        <a href="{% url 'contact-us' %}"
+          ><button class="btn ">Contact Us</button></a
+        >
       </div>
     </div>
-    <!------------------------card for course--------------------------->
-
+    <div class="card">
+      <img
+        src="{% static 'core/images/baristatrain.jpg' %}"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">SECOND COURSE</h5>
+        <p class="card-text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+          dolores nobis placeat hic deserunt dicta nihil? Iure dignissimos
+          dolorem rem sint dolorum ipsum.
+        </p>
+        <p class="card-text">
+          <small class="text-muted"><em></em></small>
+        </p>
+        <a href="{% url 'contact-us' %}"
+          ><button class="btn ">Contact Us</button></a
+        >
+      </div>
+    </div>
+    <div class="card">
+      <img
+        src="{% static 'core/images/making.jpg' %}"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">THIRD COURSE</h5>
+        <p class="card-text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+          dolores nobis placeat hic deserunt dicta nihil? Iure dignissimos
+          dolorem rem sint dolorum ipsum,
+        </p>
+        <p class="card-text">
+          <small class="text-muted"><em></em></small>
+        </p>
+        <a href="{% url 'contact-us' %}"
+          ><button class="btn ">Contact Us</button></a
+        >
+      </div>
+    </div>
+  </div>
+</div>
+<!------------------------card for course--------------------------->
 
 {% endblock %}
